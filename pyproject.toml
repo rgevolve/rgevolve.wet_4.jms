@@ -3,7 +3,7 @@ requires = ["setuptools >= 64.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rgevolve.wet-4.jms"
+name = "rgevolve.wet_4.jms"
 authors = [
     {name = "Aleks Smolkovič", email = "aleks.smolkovic@ijs.si"},
     {name = "Peter Stangl", email = "peter.stangl@cern.ch"},
@@ -18,10 +18,10 @@ dynamic = ["version"]
 
 [tool.setuptools.packages.find]
 where = ["src/"]
-include = ["rgevolve.wet-4.jms"]
+include = ["rgevolve.wet_4.jms"]
 
 [tool.setuptools.dynamic]
-version = {attr = "rgevolve.wet-4.jms._version.__version__"}
+version = {attr = "rgevolve.wet_4.jms._version.__version__"}
 
 [tool.setuptools.package-data]
-"rgevolve.wet-4.jms" = ["data.h5"]
+"rgevolve.wet_4.jms" = ["data.h5"]
